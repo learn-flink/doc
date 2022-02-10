@@ -1,5 +1,10 @@
 flink state:
-* key state
+* keyd state 
+  * ValueState
+  * ListState
+  * MapState
+  * ReducingState
+  * AggregatingState
 * operator state
 
 * 托管状态： 由flink框架管理的状态
