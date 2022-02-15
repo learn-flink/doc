@@ -1,1 +1,2 @@
 env.enableCheckpointing(5000) 每隔5秒启动一次
+env.getCheckpointConfig.setMinPauseBetweenCheckpoints(5000) 每次checkpoint的间隔
